@@ -21,6 +21,7 @@
 		2E15B06B198BF42C00F57210 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E15B04D198BF42C00F57210 /* UIKit.framework */; };
 		2E15B073198BF42C00F57210 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2E15B071198BF42C00F57210 /* InfoPlist.strings */; };
 		2E15B075198BF42C00F57210 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E15B074198BF42C00F57210 /* Git_TestTests.m */; };
+		2E15B080198BFA7E00F57210 /* JRHTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E15B07F198BFA7E00F57210 /* JRHTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		2E15B070198BF42C00F57210 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		2E15B072198BF42C00F57210 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2E15B074198BF42C00F57210 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		2E15B07E198BFA7E00F57210 /* JRHTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRHTest.h; sourceTree = "<group>"; };
+		2E15B07F198BFA7E00F57210 /* JRHTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRHTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				2E15B05B198BF42C00F57210 /* Main.storyboard */,
 				2E15B05E198BF42C00F57210 /* JRHViewController.h */,
 				2E15B05F198BF42C00F57210 /* JRHViewController.m */,
+				2E15B07E198BFA7E00F57210 /* JRHTest.h */,
+				2E15B07F198BFA7E00F57210 /* JRHTest.m */,
 				2E15B061198BF42C00F57210 /* Images.xcassets */,
 				2E15B050198BF42C00F57210 /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E15B080198BFA7E00F57210 /* JRHTest.m in Sources */,
 				2E15B056198BF42C00F57210 /* main.m in Sources */,
 				2E15B05A198BF42C00F57210 /* JRHAppDelegate.m in Sources */,
 				2E15B060198BF42C00F57210 /* JRHViewController.m in Sources */,
